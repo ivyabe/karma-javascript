@@ -1,0 +1,33 @@
+{
+  "name": "sample-karma-test",
+  "version": "1.0.0",
+  "description": "Karma test sample",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "Ivy",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "core-util-is": "^1.0.2",
+    "gulp": "^4.0.2",
+    "istanbul": "^0.3.6",
+    "jshint": "^2.6.0",
+    "karma": "^0.12.37",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-coverage": "^0.2.7",
+    "karma-fixture": "^0.2.1-1",
+    "karma-html-reporter": "^0.2.7",
+    "karma-html2js-preprocessor": "*",
+    "karma-htmlfile-reporter": "^0.3.8",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine-html-reporter": "^1.5.3",
+    "karma-mocha": "^0.1.10",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0",
+    "unexpected": "^11.14.0",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
