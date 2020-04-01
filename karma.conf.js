@@ -2,11 +2,11 @@ module.exports = function (config) {
     config.set({
         frameworks: ['mocha', 'chai'],
         files: [
-            './src/use-file-and-function.js',
-            './test/use-file-and-function.js'
+            './src/getter-setter.js',
+            './test/getter-setter.js'
         ],
         preprocessors: {
-            './src/*.js': 'coverage'
+            './src/getter-setter.js': 'coverage'
         },
         reporters: ['progress', 'coverage', 'html'],
         htmlReporter: {
